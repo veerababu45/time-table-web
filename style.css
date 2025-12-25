@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: url("https://cdn.pixabay.com/photo/2024/05/28/14/56/cornfield-8793923_1280.jpg");
+    color: black;
+    padding: 20px;   
+}
+
+.header{
+    background: url("https://cdn.pixabay.com/photo/2023/01/15/06/46/sunrise-7719608_1280.jpg");
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+    padding: 15px 20px;
+    
+}
+
+header h1{
+    color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}   
+.header p{
+    color: skyblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: right;
+}
+
+.time-block{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 10px;
+    padding: 15px;
+
+}
+
+.dropbox1{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: goldenrod;
+}
+
+.dropbox2{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: olive;
+}
+
+.dropbox3{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: steelblue;
+}
+
+.dropbox4{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: seashell;
+}
+
+.dropbox5{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: slategray;
+}
+
+.dropbox6{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: gainsboro;
+}
+
+.dropbox7{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: palevioletred;
+}
+
+.dropbox8{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: blanchedalmond;
+}
+
+.dropbox9{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: bisque;
+}
+
+.dropbox10{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: azure;
+}
+
+.dropbox11{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    background-color: beige;
+}
+
+
+
+.time{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+
+.activity-wakeup {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+
+}
+
+.activity-breakfast {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.activity-study {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.activity-breaktime {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.activity-lunch {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.activity-mobile {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.activity-games {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.activity-dinner {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.activity-sleep {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.activity-work {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.activity-reading {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.activity-exercise {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+
+.dropbox1:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
+
+.dropbox2:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
+
+.dropbox3:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
+
+.dropbox4:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
+
+.dropbox5:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
+
+.dropbox6:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
+
+.dropbox7:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
+
+.dropbox8:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
+
+.dropbox1:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
+
+
+.dropbox9:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
+
+.dropbox10:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: rgb(127, 30, 119);
+    margin: 5px;
+    padding: 1opx;
+}
+
+.dropbox11:hover {
+    transition: 0.3s ease;
+    position: relative;
+    background: lightblue;
+    margin: 5px;
+    padding: 1opx;
+}
